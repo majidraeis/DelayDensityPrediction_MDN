@@ -188,9 +188,8 @@ test_length = int(5 * day / mean_Ta)  # int(0.5 * lengthTa)
 plot_flag = 1
 save_flag = 1
 c_a = 2.0
-
-
 QLnoise, QLnoise_sigma = "False", 5
+
 if TotHistLength == 1:
     directory = 'Queueing_models/%s_%s' % (ArrivalType, ServiceType)
 else:
